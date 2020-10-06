@@ -17,15 +17,27 @@
 - 1\. PC类  
 
     - 1.1 属性
-       Cpu cpu
-       HardDisk HD
-       private String name
+       <p>Cpu cpu；</p>
+       <p>HardDisk HD；</p>
+       <p>private String name；</p>
     - 1.2 方法
-       void setName
-       public String getName
-       void setCPU
-       void setHardDIsk
-       void show
+       <p>void setName；</p>
+       <p>public String getName；</p>
+       <p>void setCPU；</p>
+       <p>void setHardDIsk；</p>
+       <p>void show；</p>
+ - 2\. CPU类
+     - 1.1 属性private int speed;private String brand;
+     - 1.2 方法
+ - 3\. Test类
+     - 1.1 属性
+     - 1.2 方法
+ - 4\. HardDisk类
+     - 1.1 属性
+     - 1.2 方法
+ - 5\. Teacher类
+     - 1.1 属性
+     - 1.2 方法
 ## 核心代码
 主类中的具体内容
 ```
