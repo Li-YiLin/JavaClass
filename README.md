@@ -17,27 +17,61 @@
 - 1\. PC类  
 
     - 1.1 属性
-       <p>Cpu cpu；</p>
-       <p>HardDisk HD；</p>
-       <p>private String name；</p>
+       <p>Cpu cpu</p>
+       <p>HardDisk HD</p>
+       <p>private String name</p>
     - 1.2 方法
-       <p>void setName；</p>
-       <p>public String getName；</p>
-       <p>void setCPU；</p>
-       <p>void setHardDIsk；</p>
-       <p>void show；</p>
+       <p>void setName</p>
+       <p>public String getName</p>
+       <p>void setCPU</p>
+       <p>void setHardDIsk</p>
+       <p>void show</p>
  - 2\. CPU类
-     - 1.1 属性private int speed;private String brand;
-     - 1.2 方法
- - 3\. Test类
-     - 1.1 属性
-     - 1.2 方法
- - 4\. HardDisk类
-     - 1.1 属性
-     - 1.2 方法
- - 5\. Teacher类
-     - 1.1 属性
-     - 1.2 方法
+     - 2.1 属性
+       <p>private int speed</p>
+       <p>private String brand</p>
+     - 2.2 方法
+       <p>void setSpeed</p>
+     <p>int getSpeed</p>
+
+ - 3\. HardDisk类
+     - 3.1 属性
+     <p>private int amount</p>
+     <p>private float speed</p>
+     <p>private boolean typeG</p>
+     - 3.2 方法
+     <p>HardDisk()</p>
+     <p>HardDisk(int amount,float speed,boolean typeG)</p>
+     <p>void setAmount(int m)</p>
+     <p>int getAmount()</p>
+     <p>void gettype()</p>
+ - 4\. Teacher类
+     - 4.1 属性
+     <p>static PC pc</p>
+     <p>private String sex</p>
+     - 4.2 方法
+     <p>public Teacher</p>
+     <p>String getSex(String sex)</p>
+     <p>public static void showname()</p>
+     <p>void setPc(PC pc)</p>
+ - 5\. Test类
+     - 5.1 对象实例化
+     <p>PC pc = new PC();</p>
+     <p>Cpu cpu = new Cpu();</p>
+     <p>HardDisk HD = new HardDisk(4000, (float) 2.5,true);</p>
+     - 5.2 方法调用
+        cpu.setSpeed(2200);
+        HD.setAmount(200);
+        pc.setCPU(cpu);
+        pc.setHardDIsk(HD);
+        pc.show();
+        System.out.println("cpu品牌："+cpu.getbrand("AMD"));
+        System.out.println("硬盘类型:");
+        HD.gettype();
+        Teacher ZSB = new Teacher(pc,"男");
+        pc.setName("vegetable");
+        Teacher.showname();
+     
 ## 核心代码
 主类中的具体内容
 ```
