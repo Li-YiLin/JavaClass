@@ -30,30 +30,30 @@
      - 2.1 属性
        <p>private int speed</p>
        <p>private String brand</p>
-     - 3.2 方法
+     - 2.2 方法
        <p>void setSpeed</p>
        <p>int getSpeed</p>
 
  - 3\. HardDisk类
      - 3.1 属性
-     <p>private int amount</p>
-     <p>private float speed</p>
-     <p>private boolean typeG</p>
+       <p>private int amount</p>
+       <p>private float speed</p>
+       <p>private boolean typeG</p>
      - 3.2 方法
-     <p>HardDisk()</p>
-     <p>HardDisk(int amount,float speed,boolean typeG)</p>
-     <p>void setAmount(int m)</p>
-     <p>int getAmount()</p>
-     <p>void gettype()</p>
+       <p>HardDisk()</p>
+       <p>HardDisk(int amount,float speed,boolean typeG)</p>
+       <p>void setAmount(int m)</p>
+       <p>int getAmount()</p>
+       <p>void gettype()</p>
  - 4\. Teacher类
       - 4.1 属性
-     <p>static PC pc</p>
-     <p>private String sex</p>
+       <p>static PC pc</p>
+       <p>private String sex</p>
       - 4.2 方法
-     <p>public Teacher</p>
-     <p>String getSex(String sex)</p>
-     <p>public static void showname()</p>
-     <p>void setPc(PC pc)</p>
+       <p>public Teacher</p>
+       <p>String getSex(String sex)</p>
+       <p>public static void showname()</p>
+       <p>void setPc(PC pc)</p>
  
      
 ## 核心代码
