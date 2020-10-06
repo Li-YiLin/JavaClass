@@ -30,7 +30,7 @@
      - 2.1 属性
        <p>private int speed</p>
        <p>private String brand</p>
-     - 2.2 方法
+     - 3.2 方法
        <p>void setSpeed</p>
        <p>int getSpeed</p>
 
