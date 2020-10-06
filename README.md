@@ -46,7 +46,7 @@
      <p>int getAmount()</p>
      <p>void gettype()</p>
  - 4\. Teacher类
-     - 4.1 属性
+      - 4.1 属性
      <p>static PC pc</p>
      <p>private String sex</p>
       - 4.2 方法
@@ -54,24 +54,7 @@
      <p>String getSex(String sex)</p>
      <p>public static void showname()</p>
      <p>void setPc(PC pc)</p>
- - 5\. Test类
-     - 5.1 对象实例化
-     <p>PC pc = new PC()</p>
-     <p>Cpu cpu = new Cpu()</p>
-     <p>HardDisk HD = new HardDisk(4000, (float) 2.5,true)</p>
-      - 5.2 方法调用
-     
-        cpu.setSpeed(2200);
-        HD.setAmount(200);
-        pc.setCPU(cpu);
-        pc.setHardDIsk(HD);
-        pc.show();
-        System.out.println("cpu品牌："+cpu.getbrand("AMD"));
-        System.out.println("硬盘类型:");
-        HD.gettype();
-        Teacher ZSB = new Teacher(pc,"男");
-        pc.setName("vegetable");
-        Teacher.showname();
+ 
      
 ## 核心代码
 主类中的具体内容
