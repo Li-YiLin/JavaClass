@@ -40,6 +40,9 @@
      <p>private float speed</p>
      <p>private boolean typeG</p>
      - 2.2 方法
+       <p>void setSpeed</p>
+       <p>int getSpeed</p>
+     - 2.2 方法
      <p>HardDisk()</p>
      <p>HardDisk(int amount,float speed,boolean typeG)</p>
      <p>void setAmount(int m)</p>
@@ -111,3 +114,4 @@ Teacher跨包定义类的具体实现
 实例化cpu，pc，hard disk，并输出cpu速度品牌，硬板的容量以及类型。建立名为ZSB的Teacher对象，定义其性别与主机名并输出主机名。
 ![实验结果截图](实验结果.png)
 ## 实验感想
+对构造方法的使用更加灵活，了解了新的类型：String类型。并且使用其作为方法的返回类型。初步了解了修饰符的作用，规范了代码的风格：尽量避免直接调用类中的属性，尽量通过调用接口的方法来进行操作属性。对static进行重新的理解。并且加深了对markdown的书写格式。
