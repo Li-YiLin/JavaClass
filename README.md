@@ -39,7 +39,7 @@
      <p>private int amount</p>
      <p>private float speed</p>
      <p>private boolean typeG</p>
-     - 3.2 方法
+     - 2.2 方法
      <p>HardDisk()</p>
      <p>HardDisk(int amount,float speed,boolean typeG)</p>
      <p>void setAmount(int m)</p>
@@ -49,7 +49,7 @@
       - 4.1 属性
      <p>static PC pc</p>
      <p>private String sex</p>
-      - 4.2 方法
+      - 2.2 方法
      <p>public Teacher</p>
      <p>String getSex(String sex)</p>
      <p>public static void showname()</p>
