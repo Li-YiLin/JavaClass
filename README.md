@@ -30,19 +30,16 @@
      - 2.1 属性
        <p>private int speed</p>
        <p>private String brand</p>
-     - 2.2 方法
+     * 2.2 方法
        <p>void setSpeed</p>
        <p>int getSpeed</p>
 
  - 3\. HardDisk类
-     - 3.1 属性
+     * 3.1 属性
      <p>private int amount</p>
      <p>private float speed</p>
      <p>private boolean typeG</p>
-     - 2.2 方法
-       <p>void setSpeed</p>
-       <p>int getSpeed</p>
-     - 2.2 方法
+     * 3.2 方法
      <p>HardDisk()</p>
      <p>HardDisk(int amount,float speed,boolean typeG)</p>
      <p>void setAmount(int m)</p>
@@ -52,7 +49,7 @@
       - 4.1 属性
      <p>static PC pc</p>
      <p>private String sex</p>
-      - 2.2 方法
+      - 4.2 方法
      <p>public Teacher</p>
      <p>String getSex(String sex)</p>
      <p>public static void showname()</p>
@@ -114,4 +111,4 @@ Teacher跨包定义类的具体实现
 实例化cpu，pc，hard disk，并输出cpu速度品牌，硬板的容量以及类型。建立名为ZSB的Teacher对象，定义其性别与主机名并输出主机名。
 ![实验结果截图](实验结果.png)
 ## 实验感想
-对构造方法的使用更加灵活，了解了新的类型：String类型。并且使用其作为方法的返回类型。初步了解了修饰符的作用，规范了代码的风格：尽量避免直接调用类中的属性，尽量通过调用接口的方法来进行操作属性。对static进行重新的理解。并且加深了对markdown的书写格式。
+尝试用markdown编辑。在Java中学习中对构造方法的使用更加灵活：通过定义构造方法可以直接对某些属性初始化或者进行一些操作，了解了新的类型：String类型。并且使用其作为方法的返回类型。初步了解了修饰符的作用，规范了代码的风格：尽量避免直接调用类中的属性，尽量通过调用接口的方法来进行操作属性。对static进行重新的理解。
