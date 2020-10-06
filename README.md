@@ -17,8 +17,15 @@
 - 1\. PC类  
 
     - 1.1 属性
+       Cpu cpu
+       HardDisk HD
+       private String name
     - 1.2 方法
-  
+       void setName
+       public String getName
+       void setCPU
+       void setHardDIsk
+       void show
 ## 核心代码
 主类中的具体内容
 ```
